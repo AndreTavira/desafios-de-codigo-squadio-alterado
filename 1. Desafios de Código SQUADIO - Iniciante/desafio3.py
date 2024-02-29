@@ -40,9 +40,7 @@ capacidade_atual, aumento_percentual = map(int, input().split())
 # TODO: Imprima a nova capacidade
 
 # Cálculo do aumento em teraflops
-if (aumento_teraflops <= 0):
-    print("Não é possivel calcular a capacidade  do disco de Mithril")
-else:
+
      aumento_teraflops = capacidade_atual * aumento_percentual / 100 # Cálculo do aumento em teraflops
 
 # Cálculo da nova capacidade total
